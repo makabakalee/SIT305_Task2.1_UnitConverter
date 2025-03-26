@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 基础主题 -->
+<style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <item name="colorPrimary">@color/primary_color</item>
+    <item name="colorPrimaryVariant">@color/primary_color</item>
+</style>
+
+<!-- 单位按钮样式 -->
+<style name="UnitButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
+    <item name="strokeColor">@color/primary_color</item>
+    <item name="android:textColor">@color/primary_color</item>
+    <item name="android:textSize">14sp</item>
+    <item name="cornerRadius">16dp</item>
+    <item name="android:layout_width">120dp</item> <!-- 修正 12d0p 为 120dp -->
+    <item name="android:layout_height">40dp</item>
+</style>
+</resources>
